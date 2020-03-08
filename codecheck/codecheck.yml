@@ -1,0 +1,41 @@
+%YAML 1.1
+---
+version: https://codecheck.org.uk/spec/1.0
+ 
+paper:
+  title: "Replication of Partial Least Squares Discriminant Analysis on Metabolomics NMR/MS Data"
+  authors: Medha Sagar; Adrian Tullock; Florencia Marcaccio; Faryal Usman; Sanjana Gupta
+
+
+manifest:
+  - file: 
+    comment:
+
+---
+codecheck: 
+  repository: <https://github.com/MatthewCodes/gupta-marcaccio-sagar-tullock-usman-replication-project.git>
+  codechecker:
+    name: Andy De La Fuente
+    ORCID: https://orcid.org/0000-0003-4148-8690
+    notes: |
+     Andy what did you do
+
+    name: Matt Rhodes
+    ORCID: https://orcid.org/0000-0002-4400-7111
+    notes: |
+      Matt what did you do
+
+    name: Juan Solorio
+    ORCID: https://orcid.org/0000-0003-3833-9459
+    notes: |
+      Juan what did you do
+
+    name: Anmol Srivastava
+    ORCID: https://orcid.org/0000-0002-9553-3904
+    notes: |
+      Anmol what did you do
+
+    name: Maggie Weatherly
+    ORCID: https://orcid.org/0000-0003-3682-8216
+    notes: |
+      Maggie what did you do
