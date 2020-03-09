@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583709622854.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7CAB5E21",
+    "lastKnownWriteTime" : 1583714435,
+    "last_content_update" : 1583714435171,
+    "path" : "~/Documents/DATA_598a/week9_peer_Review/gupta-marcaccio-sagar-tullock-usman-replication-project/analysis/001-PLSDA_code.R",
+    "project_path" : "analysis/001-PLSDA_code.R",
+    "properties" : {
+        "cursorPosition" : "33,43",
+        "scrollLine" : "14"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

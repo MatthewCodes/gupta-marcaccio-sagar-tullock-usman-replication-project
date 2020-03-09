@@ -46,7 +46,7 @@ This leads us to a dimension-reduction technique closely related to Partial Leas
 
 However, the disadvantage of this method is that it does not take into account the relationship of the predictor variables X to Y, the response variable. This is critical in metabolomic contexts, for example if a researcher has two samples of data from seemingly healthy and unhealthy patients and wants to classify patients algorithmically. To give a supervised spin to PCA, Partial Least Squares interprets variance between predictor variables X as well as the relationship of X to the qualitative / categorical target variable Y. The output of PLS-DA is a ‘scores’ matrix that aids in predicting the target variable. One output of PLS-DA is a scores matrix—usually visualized as a scores plot in the figure below—that answers the key question of: ‘Are the groups actually different?’
 
-![algorithm-explanation-figure-1](figures/algorithm-explanation-figure-1.png)
+![algorithm-explanation-figure-1](figures/original/algorithm-explanation-figure-1.png)
 
 While PLS-DA is a powerful algorithm that can work in a variety of contexts (with highly correlated data, high-dimensional data, few observations, no knowledge of underlying distribution), its main disadvantage is that its output cannot be interpreted as easily as p values or confidence intervals.  However, its increasing use in classification and biological as well as engineering fields means this is not a disadvantage as much as a feature of the algorithm.
 
@@ -106,13 +106,13 @@ source(here("analysis", "001-PLSDA_code.R"))
 
 This is the target image that we are trying to replicate. We get this image from the paper[@Paper]. 
 
-![Fig 1. Image to be replicated.](figures/image_to_be_replicated.jpg)
+![Fig 1. Image to be replicated.](figures/original/image_to_be_replicated.jpg)
 
 The image that we obtain after replicating the steps in the tutorial paper is below in Fig 2.
 The paper does not talk about the specific data processing steps so we kept everything to a default.
 
 
-![Fig 2. Image replicated.](figures/pls_score3d_0_dpi72.png)
+![Fig 2. Image replicated.](figures/original/pls_score3d_0_dpi72.png)
 
 
 # 5. Technical Variations : Observing change in the analysis
@@ -140,10 +140,10 @@ The package also generates feature importance graphs along with the PLSDA analys
 Therefore, as you can see from the images below, we tried to plot the feature importace for the first and second component and we cans see that the results do not vary much. The first three most important features renain constant for both the components. 
 
 
-![Fig. 3 Feature Importance Based on the First Component.](figures/pls_imp_0_dpi72.png)
+![Fig. 3 Feature Importance Based on the First Component.](figures/original/pls_imp_0_dpi72.png)
 
 
-![Fig. 4 Feature Importance Based on the Second Component.](figures/pls_imp_2_dpi72.png)
+![Fig. 4 Feature Importance Based on the Second Component.](figures/original/pls_imp_2_dpi72.png)
 
 # 6. Conclusion
 As you can observe from Fig. 1 and Fig. 2, we have achieved a close to perfect replication. The results for the replicated analysis are significant. 
